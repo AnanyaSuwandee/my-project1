@@ -262,11 +262,10 @@ import system.exception.*;
             System.out.println("   ██╔══██╗██╔══██╗██╔════╝ ");
             System.out.println("   ██████╔╝██████╔╝██║  ███╗");
             System.out.println("   ██╔══██╗██╔═══╝ ██║   ██║");
-            System.out.println("   ██║  ██║██║     ██║   ██║");
-            System.out.println("   ╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝");
-            System.out.println("   ╚██████╔╝");
-            System.out.println("   ╚═════╝ ");
-            System.out.println("       BATTLE SYSTEM v1.0");
+            System.out.println("   ██║  ██║██║     ██║█████║");
+            System.out.println("   ╚═╝  ╚═╝╚═╝       ╚═════╝");
+            System.out.println("                            ");
+            System.out.println("     BATTLE SYSTEM v1.0     ");
             System.out.println();
         }
     }

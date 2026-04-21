@@ -70,7 +70,7 @@ class Orc extends Monster {
  */
 class Dragon extends Monster {
     public Dragon() {
-        super("Dragon ", 300, 60, 30, 200, 100);
+        super("Dragon ", 200, 60, 30, 200, 100);
     }
     @Override
     public String performSpecialMove(Character target) {
