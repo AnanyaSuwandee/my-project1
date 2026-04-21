@@ -141,11 +141,11 @@ FileWriter(LEADERBOARD_FILE))) {
         System.out.println("   ╠══════════════════════════════════════════════╣");  
 
         if (entries.isEmpty()) {
-            System.out.println("   ║      No records yet. Be the first!           ║");
+            System.out.println("   ║     No records yet. Be the first!           ║");
         } else {    
             for (int i = 0; i < entries.size(); i++) {
                 String[] e = entries.get(i);
-                System.out.printf("  ║  #%-2d  %-12s %-8s Lv.%-3s Stage %-3s  ║%n", i + 1, e[0], e[1], e[2], e[3]);
+                System.out.printf("   ║  #%-2d  %-12s %-8s Lv.%-3s Stage %-3s ║%n", i + 1, e[0], e[1], e[2], e[3]);
             }
         }
         System.out.println("   ╚══════════════════════════════════════════════╝");
